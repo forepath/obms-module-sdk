@@ -1,0 +1,32 @@
+{
+    "name": "forepath/obms-module-sdk",
+    "type": "module",
+    "description": "The OBMS module SDK.",
+    "keywords": ["obms", "open business management software"],
+    "license": "Apache-2.0",
+    "homepage": "https://forepath.io",
+    "support": {
+        "docs": "https://forepath.io/docs/obms",
+        "email": "support@forepath.io",
+        "issues": "https://github.com/forepath/obms-module-sdk/issues",
+        "source": "https://github.com/forepath/obms-module-sdk"
+    },
+    "autoload": {
+        "psr-4": {
+            "OBMS\\ModuleSDK\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "forepath/obms": "*"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.13",
+        "phpstan/phpstan": "^1.10"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
